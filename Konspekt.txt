@@ -1,0 +1,50 @@
+Video Course Including CRUD:
+Uue API projekti loomisel solution nime lõppu mitte panna .API, kuna solutionis võib olla mitu projekti.
+Projekt on struktuur failide ja kaustade organiseerimiseks ühte kohta.
+ASP.NET Core annab algselt dependancy injectioni.
+Middleware on tarkvara mis on pandud kokku aplikatsiooniks mis haldab taotlusi ja vastuseid.
+ASP.NET teeb skaleeritavate ja hooldatavate restful apide implementeerimise lihtsaks.
+ASP.Net Core web apis on Routing sissetulevate HTTP taotluste ühildamise protsess.
+ASP.NET Coreis on DB context klass mis esindab sessioon andmebaasiga ja pakub apisi andmebaasi operatsioonide tegemiseks.
+Lisaks on see veel vastutav andmebaasiga ühenduse pidamise ja andmete muutumuse jälgimisega.
+Võib öelda, et DB context käitub sillana domain model klasside ja andmebaasi vahel.
+Dependency injection on hooldatavuse ja testimise parendamiseks kasutatav disaini muster.
+See vähendab komponentide vahelist sidumist.
+Di konteiner vastutab juhtumite loomise ja haldamise eest.
+DTOsi kasutatakse andmete üleandmiseks erinevate aplikatsiooni kihtide vahel.
+Nad enamasti omavad domain objekti atribuudi alamhulka.
+DTO tehakse domain modeliks ja vastupidi, et kliendipool ei saaks domain modelit.
+DTOdel saab olla rohkem omadusi kui domain modelitel.
+DTOd saab ettevõtte nõuete järgi kohandada.
+DTOd parandavad ka aplikatsiooni jõudlust kuna nendega saab kätte saada vaid vajalikud andmed.
+Samuti teeb see ka turvalisemaks kuna limiteerib andmete hulka mis on kliendile kättesaadav.
+
+
+Video REST API for Beginners:
+Aplikatsiooni kaheks eraldi projektiks tegemine on kliendile parem,
+kuna saad api definitsiooni defineerida class libraryna ja nuget packagine avaldada.
+Builder variablet saab kasutada dependency injectioniks ja konfigureerimiseks.
+Framework laseb endpoitsidele panna klassi eesliidese kasutamata sõna controller.
+Päringut on halb talletada nagu see on andmebaasis, sest see ei oma kõiki omadusi mida me tahame.
+
+
+Vue.js for Beginners:
+Vue.js on JavaScripti raamistik aplikatsioonide ja veebilehtede tegemiseks.
+Vue võtab aplikatsioonis vähe ruumi ja teeb sell effektiivsemaks ja kiiremaks.
+Vue version 1 väljalase oli 2014 aastal, peale mida see sai värskendusi ja kogus populaarsust.
+Vue enda koodi lisamiseks tuleb ainult rida koodi kirjutada.
+HTMLi ja Vue.js JavaScripti saab ühendada kasutades Vue directivse.
+Aplikatsiooni on hea teha eraldi VUE komponentideks.
+Komponente saab kasutada komponentide sees.
+Võtme mis unikaalselt tuvastab elemendi aitab jõudlust parandada.
+Vue.js saab saab teha eraldi JavaScripti failiks ja saab kasutada mitme lehe peal, et oleks mugavam.
+Vue cli tõmmates cmd-ga saad valida versiooni ja paketid mis tahad.
+Stiili kasutamiseks Vue failides on mõtekas teha eraldi fail selleks, kuna kui ühte komponenti stiili kirjutamisel on see ka teistes komponentides kasutuse.
+Muutujaid saab hoida Parent componentides ja children componendid saavad neid kutsuda ja uuendada.
+
+
+
+
+
+
+
